@@ -12,4 +12,6 @@ public interface FileService extends IService<File> {
     FileDto getFile(String fileId);
 
     void uploadFile(MultipartFile file) throws Exception;
+
+    void prepare()
 }

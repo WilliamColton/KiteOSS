@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 @TableName("file")
 public class File {
 
-    @TableId(type = IdType.ASSIGN_UUID)
+    @TableId(type = IdType.AUTO)
     private String id;
 
     private String folderId;
